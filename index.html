@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish eCommerce Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <!-- Navigation Bar -->
+    <nav>
+        <button id="start-speech">🎤 Speak</button>
+        <input type="text" id="search-bar" placeholder="Search products...">
+        <div class="logo">eShop</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="cart.html">cart</a></li>
+            <li><a href="checkout.html">checkout</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to eShop</h1>
+        <p>Your one-stop shop for everything!</p>
+        <button><a href="products.html">Shop Now</a></button>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category">
+                <img src="https://i.postimg.cc/sf0WLFnN/harshit-suryawanshi-H9-JMj-Jlg-Zrw-unsplash.jpg" alt="Category 1">
+                <h3>Electronics</h3>
+            </div>
+            <div class="category">
+                <img src="https://i.postimg.cc/SRcP1xD8/31-ENi-HKr-RL-SL500-AC-SL500.jpg" alt="Category 2">
+                <h3>Fashion</h3>
+            </div>
+            <div class="category">
+                <img src="https://i.postimg.cc/8CKss1dh/21253197-2106-q703-016-S-m004-c10-household-appliance-realistic-min-scaled.jpg" alt="Category 3">
+                <h3>Home & Garden</h3>
+            </div>
+            <div class="category">
+                <img src="https://i.postimg.cc/gJFQVhKd/sports-accessories.jpg" alt="Category 4">
+                <h3>Sports</h3>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid" id="product-list">
+            <!-- Products will be injected here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 eShop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
