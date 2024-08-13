@@ -1,9 +1,9 @@
 /* Reset and Base Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 /* Navigation Bar */
@@ -18,7 +18,7 @@ nav {
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-style: oblique;
 }
 
 .nav-links {
@@ -37,9 +37,9 @@ nav {
 }
 
 #cart-btn {
-    background-color: #ff5722;
+    background-color: #ffffff;
     border: none;
-    color: #fff;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -51,8 +51,8 @@ nav {
 
 /* Hero Section */
 .hero {
-    background-color: #ff5722;
-    color: #fff;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     text-align: center;
     padding: 100px 20px;
 }
@@ -75,6 +75,7 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .shop-now-btn:hover {
